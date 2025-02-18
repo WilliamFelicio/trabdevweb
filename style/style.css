@@ -1,0 +1,232 @@
+
+	/* FEITO POR: WILLIAM FELICIO DOS SANTOS -- MATRÍCULA: 2019200323 */
+
+* {
+	margin: 0;padding: 0;
+}
+
+body {
+	font-family: arial, verdana , sans-serif;
+	background: #EEEDED;
+}
+
+
+.menu {
+	max-width: 900px;
+	margin: auto;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 0px; 
+	text-align: center;
+	background: #EEEDED;
+	box-shadow: 0px 6px 5px #565351;	
+	text-shadow: 0px 2px 18px #000000;
+	z-index: 2;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.menu ul {
+	list-style: none;
+	position: relative;	
+}
+
+.menu ul li {
+	width: 78px;
+	float: left;
+	border-right: solid 1px #fff;	
+	border-left: solid 1px #fff;
+	display: block;
+	margin: auto;
+}
+
+.menu ul ul {
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul ul li {
+	float: none;
+	border-right: solid 1px #fff;
+	border-left: solid 1px #fff;
+}
+
+.menu a {
+	padding: 3px 0px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #EEEDED;
+}
+
+.menu ul li:hover ul {
+	visibility: visible;	
+}
+
+.menu a:hover {
+	background-color: #069;
+	color: white;
+}
+
+.pc, .mouse, .gpu, .cad, .mon, .home, .proj , .head, .news, .sac, .cadas {
+	width: 40px;
+	height: 40px;
+}
+
+
+	/* MENU ACIMA-LAYOUT ABAIXO */
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-top: 120px;	
+	margin-right: 11%;
+	margin-left: 9%;
+	background: #EEEDED;
+	padding: 10px;
+	border: 2px solid #069;
+	text-decoration: none;
+	text-align: center;
+	color: #069;
+	font-weight: bold;	
+}
+
+	/* BOXES */
+
+.propaganda {
+	flex-grow: 1;
+	flex-basis: 1000px;
+	margin: 10px;
+	background: white;
+	height: 250px;
+	text-align: center;
+	border: 3px solid #069;
+}
+	
+.item {
+	flex-grow: 1;
+	flex-basis: 250px;
+	margin: 10px;
+	background: white;
+	height: 370px;
+	text-align: center;
+	border: 2px solid #069;
+
+}
+
+.recomendados {
+	flex-grow: 1;
+	flex-basis: 1000px;
+	margin: 10px;
+	background: white;
+	height: 10px;
+	text-align: center;
+	padding: 20px;
+	border: 3px solid #069;
+}
+
+.conteudo {
+	flex-grow: 1;
+	flex-basis: 1000px;
+	margin: 10px;
+	background: white;
+	height: 800px;
+	text-align: center;
+	border: 2px solid #069;
+}
+
+
+	/* BOXES */
+
+
+	/*BOTÃO E LINKS DO CONTAINER*/
+
+button {
+	border: none;
+	padding: 6px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+button:hover {
+	opacity: 0.7;
+}
+
+.container a {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+.container a:hover {
+	text-decoration: none;
+	text-align: center;
+	color: #069;
+	font-weight: bold;
+}
+
+
+	/*BOTÃO E LINKS DO CONTAINER*/
+
+
+	/*RODAPE*/
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin-top: 40px;	
+	background: #EEEDED;
+	border: 2px solid #069;
+	text-decoration: none;
+	text-align: center;
+	color: #069;
+	font-weight: bold;	
+}
+
+.roda {
+	flex-grow: 1;
+	flex-basis: 6px;
+	margin: 10px;
+	background: white;
+	height: 400px;
+	text-align: center;
+	border: 2px solid #069;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.rodape {
+	flex-grow: 1;
+	flex-basis: 400px;
+	margin: 10px;
+	background: white;
+	height: 400px;
+	text-align: center;
+	border: 2px solid #069;
+}
